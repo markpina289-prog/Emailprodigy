@@ -1,0 +1,13 @@
+name = "email-prodigy"
+main = "index.js"
+compatibility_date = "2026-03-28"
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+# Custom domain
+routes = [
+  { pattern = "security@jesusgeneration.vip", custom_domain = true }
+]
