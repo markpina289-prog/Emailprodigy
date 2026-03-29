@@ -2,6 +2,9 @@ name = "emailprodigy"
 main = "index.js"
 compatibility_date = "2026-03-28"
 
+[vars]
+RESEND_API_KEY = "re_bfP2aN2c_7x7HrkUAcF5uYVVhqPtocpzP"
+
 [observability]
 enabled = false
 head_sampling_rate = 1
